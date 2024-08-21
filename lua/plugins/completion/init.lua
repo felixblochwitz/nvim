@@ -99,7 +99,7 @@ return {
       require('lspconfig')['pyright'].setup {
         capabilities = capabilities
       }
-      require('lspconfig')['lua-language-server'].setup {
+      require('lspconfig')['lua_ls'].setup {
         capabilities = capabilities
       }
     end
