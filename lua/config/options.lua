@@ -1,8 +1,9 @@
 -- recommended setting for tabs from the documentation
 -- https://neovim.io/doc/user/options.html#'tabstop'
+vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
-vim.opt.expandtab = true
+vim.opt.expandtab = false
 
 vim.cmd("colorscheme tokyonight")
 
@@ -24,6 +25,7 @@ vim.keymap.set({"i"}, "<c-k>", vim.lsp.buf.signature_help)
 vim.keymap.set({"n", "v"}, "<leader>ca", vim.lsp.buf.code_action)
 vim.keymap.set({"n", "v"}, "<leader>cc", vim.lsp.codelens.run)
 vim.keymap.set({"n", "v"}, "<leader>cC", vim.lsp.codelens.refresh)
+vim.keymap.set({ "n" }, "<leader>ff", vim.lsp.buf.format)
 --vim.keymap.set({"n", "v"}, "<leader>cr", vim.lsp.codelens.rename)
 
 -- { "<leader>cR", LazyVim.lsp.rename_file, desc = "Rename File", mode ={"n"}, has = { "workspace/didRenameFiles", "workspace/willRenameFiles" } }, TODO: checkout if I can imlement this
