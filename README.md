@@ -10,7 +10,7 @@ Language Support:
 
 General Plugins:
 - [x] prettier
-- [ ] treesitter
+- [x] treesitter
 - [ ] telescope
 - [ ] harpoon
 - [ ] nvim-tree / neotree (leaning towards nvim-tree right now)
@@ -18,6 +18,6 @@ General Plugins:
 - [ ] better status line
 
 Other stuff:
-- [ ] make code actions and everything work for pyright
+- [x] make code actions and everything work for pyright (pyright doesn't have code actions lol)
 - [ ] python documentation creation (maybe neogen)
 - [ ] rebuild theme picker from nvchad
