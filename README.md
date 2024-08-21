@@ -3,7 +3,7 @@
 ##### TODO:
 Language Support:
 - [x] html / css -> emmet
-- [ ] javascrip -> typescriptserver
+- [x] javascript -> typescriptserver
 - [x] python -> black, isort
 - [ ] scala -> nvim-metals (rabbit hole, might want to do later)
 - [ ] markdown -> pandoc, see what else we can achieve here
@@ -21,3 +21,5 @@ Other stuff:
 - [x] make code actions and everything work for pyright (pyright doesn't have code actions lol)
 - [ ] python documentation creation (maybe neogen)
 - [ ] rebuild theme picker from nvchad
+- [ ] see if I can improve the snippets a bit
+- [ ] different tab size depending on file type and what my formatter for that file wants

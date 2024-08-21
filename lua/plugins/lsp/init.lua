@@ -24,6 +24,7 @@ return {
 			lspconfig.emmet_language_server.setup({})
 			lspconfig.lua_ls.setup({})
 			lspconfig.pyright.setup({})
+			lspconfig.tsserver.setup({})
 		end,
 	},
 }
