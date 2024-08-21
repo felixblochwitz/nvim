@@ -20,12 +20,10 @@ return {
 	{
 		"neovim/nvim-lspconfig",
 		config = function()
-			require("lspconfig").pyright.setup({})
-			require("lspconfig").lua_ls.setup({
-				filetypes = {
-					"lua",
-				},
-			})
+			local lspconfig = require("lspconfig")
+			lspconfig.emmet_language_server.setup({})
+			lspconfig.lua_ls.setup({})
+			lspconfig.pyright.setup({})
 		end,
 	},
 }

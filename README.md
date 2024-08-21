@@ -2,7 +2,7 @@
 
 ##### TODO:
 Language Support:
-- [ ] html / css -> emmet
+- [x] html / css -> emmet
 - [ ] javascrip -> typescriptserver
 - [x] python -> black, isort
 - [ ] scala -> nvim-metals (rabbit hole, might want to do later)
