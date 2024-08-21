@@ -6,12 +6,12 @@ Language Support:
 - [x] javascript -> typescriptserver
 - [x] python -> black, isort
 - [ ] scala -> nvim-metals (rabbit hole, might want to do later)
-- [ ] markdown -> pandoc, see what else we can achieve here
+- [ ] markdown -> pandoc, see what else we can achieve here (bit of a rabbit hole -> later)
 
 General Plugins:
 - [x] prettier
 - [x] treesitter
-- [ ] telescope
+- [x] telescope
 - [ ] harpoon
 - [ ] nvim-tree / neotree (leaning towards nvim-tree right now)
 - [ ] git plugins to integrate git better
@@ -23,3 +23,7 @@ Other stuff:
 - [ ] rebuild theme picker from nvchad
 - [ ] see if I can improve the snippets a bit
 - [ ] different tab size depending on file type and what my formatter for that file wants
+- [ ] Think about if it would make sense to create a global var that can be used to set some stuff  
+      throughout the whole Config
+- [ ] add functionality to toggle transparency
+- [ ] Only use spaces for indents
