@@ -1,4 +1,3 @@
-local vim = require("vim")
 -- recommended setting for tabs from the documentation
 -- https://neovim.io/doc/user/options.html#'tabstop'
 vim.opt.softtabstop = 4
@@ -25,7 +24,7 @@ vim.keymap.set({"i"}, "<c-k>", vim.lsp.buf.signature_help)
 vim.keymap.set({"n", "v"}, "<leader>ca", vim.lsp.buf.code_action)
 vim.keymap.set({"n", "v"}, "<leader>cc", vim.lsp.codelens.run)
 vim.keymap.set({"n", "v"}, "<leader>cC", vim.lsp.codelens.refresh)
-vim.keymap.set({"n", "v"}, "<leader>cr", vim.lsp.codelens.rename)
+--vim.keymap.set({"n", "v"}, "<leader>cr", vim.lsp.codelens.rename)
 
 -- { "<leader>cR", LazyVim.lsp.rename_file, desc = "Rename File", mode ={"n"}, has = { "workspace/didRenameFiles", "workspace/willRenameFiles" } }, TODO: checkout if I can imlement this
 -- { "<leader>cA", LazyVim.lsp.action.source, desc = "Source Action", has = "codeAction" }, TODO: checkout if I want to implement this
