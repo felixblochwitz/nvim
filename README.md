@@ -26,4 +26,4 @@ Other stuff:
 - [ ] Think about if it would make sense to create a global var that can be used to set some stuff  
       throughout the whole Config
 - [ ] add functionality to toggle transparency
-- [ ] Only use spaces for indents
+- [x] Only use spaces for indents
