@@ -20,8 +20,32 @@ vim.keymap.set({"n", "v"}, "<leader>ca", vim.lsp.buf.code_action)
 vim.keymap.set({"n", "v"}, "<leader>cc", vim.lsp.codelens.run)
 vim.keymap.set({"n", "v"}, "<leader>cC", vim.lsp.codelens.refresh)
 vim.keymap.set({ "n" }, "<leader>cf", vim.lsp.buf.format)
---vim.keymap.set({"n", "v"}, "<leader>cr", vim.lsp.codelens.rename)
-
+-- the keymaps below are from LazyVim, don't know if I'll need them, but I don't want to delete yet
+-- vim.keymap.set({"n", "v"}, "<leader>cr", vim.lsp.codelens.rename)
 -- { "<leader>cR", LazyVim.lsp.rename_file, desc = "Rename File", mode ={"n"}, has = { "workspace/didRenameFiles", "workspace/willRenameFiles" } }, TODO: checkout if I can imlement this
 -- { "<leader>cA", LazyVim.lsp.action.source, desc = "Source Action", has = "codeAction" }, TODO: checkout if I want to implement this
+--
 
+-- line numbners and relative line numbers
+vim.opt.nu = true
+vim.opt.rnu = true
+
+-- keeps a fat cursor
+vim.opt.guicursor = ""
+
+-- don't know if this does much
+vim.opt.smartindent = true
+
+-- text wrapping
+vim.opt.wrap = true
+
+-- always show the sign column, otherwise it would shift the text each time
+-- a sign is displayed (e.g. errors, warnings etc)
+vim.opt.signcolumn = "yes"
+
+-- more sane splitting optiuns
+vim.opt.splitright = true
+vim.opt.splitbelow = true
+
+-- true colors
+vim.opt.termguicolors = true

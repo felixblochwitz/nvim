@@ -16,6 +16,7 @@ General Plugins:
 - [x] nvim-tree / neotree (leaning towards nvim-tree right now) (settled for nvim-tree, it just works like I want it to)
 - [ ] git plugins to integrate git better 
 - [x] better status line
+- [ ] this TODO list plugin
 
 Other stuff:
 - [x] make code actions and everything work for pyright (pyright doesn't have code actions lol)
@@ -28,3 +29,4 @@ Other stuff:
     - [ ] Lua: understand formatting better and make it work more like in LazyVim
 - [ ] add functionality to toggle transparency
 - [x] Only use spaces for indents
+- [x] add some standard options for line numners and symbols, so the side bar doesn't twitch around
