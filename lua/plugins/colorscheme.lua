@@ -10,5 +10,6 @@ return {
 	{
 		"akinsho/horizon.nvim",
 		version = "*",
+		name = "horion"
 	},
 }

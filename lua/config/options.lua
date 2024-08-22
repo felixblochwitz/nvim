@@ -5,14 +5,9 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 
-vim.cmd("colorscheme horizon")
+--vim.cmd("colorscheme horizon")
 
 -- TODO: figure out where to best put these
---
--- TODO: figure out, why I can only switch to library modules once
---       and after going back with ctrl+o I can't switch to the external code anymore
---
---TODO: figure out for which modes I should set these
 vim.keymap.set({ "n", "v" }, "gd", vim.lsp.buf.definition)
 vim.keymap.set({ "n", "v" }, "gr", vim.lsp.buf.references)
 vim.keymap.set({"n", "v"}, "gI", vim.lsp.buf.implementation)

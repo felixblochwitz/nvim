@@ -25,5 +25,6 @@ Other stuff:
 - [ ] different tab size depending on file type and what my formatter for that file wants
 - [ ] Think about if it would make sense to create a global var that can be used to set some stuff  
       throughout the whole Config
+    - [ ] Lua: understand formatting better and make it work more like in LazyVim
 - [ ] add functionality to toggle transparency
 - [x] Only use spaces for indents
