@@ -19,7 +19,7 @@ General Plugins:
 
 Other stuff:
 - [x] make code actions and everything work for pyright (pyright doesn't have code actions lol)
-- [ ] python documentation creation (maybe neogen)
+- [x] python documentation creation (maybe neogen) (this tool can do plenty more. basically all languages that I need)
 - [ ] rebuild theme picker from nvchad
 - [ ] see if I can improve the snippets a bit
 - [ ] different tab size depending on file type and what my formatter for that file wants
