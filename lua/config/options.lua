@@ -5,8 +5,7 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = false
 
-vim.cmd("colorscheme tokyonight")
-
+vim.cmd("colorscheme everblush")
 
 -- TODO: figure out where to best put these
 --
