@@ -13,9 +13,9 @@ General Plugins:
 - [x] treesitter
 - [x] telescope
 - [ ] harpoon
-- [ ] nvim-tree / neotree (leaning towards nvim-tree right now)
-- [ ] git plugins to integrate git better
-- [ ] better status line
+- [x] nvim-tree / neotree (leaning towards nvim-tree right now) (settled for nvim-tree, it just works like I want it to)
+- [ ] git plugins to integrate git better 
+- [x] better status line
 
 Other stuff:
 - [x] make code actions and everything work for pyright (pyright doesn't have code actions lol)
