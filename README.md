@@ -23,7 +23,8 @@ Other stuff:
 - [x] python documentation creation (maybe neogen) (this tool can do plenty more. basically all languages that I need)
 - [ ] rebuild theme picker from nvchad
 - [ ] see if I can improve the snippets a bit
-- [ ] different tab size depending on file type and what my formatter for that file wants
+- [x] different tab size depending on file type and what my formatter for that file wants
+      This is fine for now, even though I couldn't really crack the code why it works
 - [ ] Think about if it would make sense to create a global var that can be used to set some stuff  
       throughout the whole Config
     - [ ] Lua: understand formatting better and make it work more like in LazyVim

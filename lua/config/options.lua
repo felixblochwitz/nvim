@@ -1,8 +1,10 @@
 -- recommended setting for tabs from the documentation
 -- https://neovim.io/doc/user/options.html#'tabstop'
-vim.opt.tabstop = 4
-vim.opt.softtabstop = 4
-vim.opt.shiftwidth = 4
+-- Setting these to 2 seems to solve my issue with different 
+-- indentation per file type
+vim.opt.tabstop = 2
+vim.opt.softtabstop = 2
+vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 
 --vim.cmd("colorscheme horizon")
