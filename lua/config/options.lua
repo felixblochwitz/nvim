@@ -5,7 +5,7 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 
-vim.cmd("colorscheme everblush")
+vim.cmd("colorscheme horizon")
 
 -- TODO: figure out where to best put these
 --

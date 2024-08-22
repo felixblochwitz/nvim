@@ -7,4 +7,8 @@ return {
 		"Everblush/nvim",
 		name = "everblush",
 	},
+	{
+		"akinsho/horizon.nvim",
+		version = "*",
+	},
 }
