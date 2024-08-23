@@ -5,7 +5,7 @@ Language Support:
 - [x] html / css -> emmet
 - [x] javascript -> typescriptserver
 - [x] python -> black, isort
-- [ ] scala -> nvim-metals (rabbit hole, might want to do later)
+- [x] scala -> nvim-metals (rabbit hole, might want to do later)
 - [ ] markdown -> pandoc, see what else we can achieve here (bit of a rabbit hole -> later)
 
 General Plugins:
