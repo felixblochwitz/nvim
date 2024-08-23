@@ -26,10 +26,11 @@ Other stuff:
 - [x] Only use spaces for indents
 - [x] add some standard options for line numners and symbols, so the side bar doesn't twitch around
 - [x] Setup obsidian
-- [ ] make follow_url function from obsidian plugin OS agnostic and implement it system wide
+- [ ] make follow_url function from obsidian plugin OS agnostic
+    - [ ] implement it system wide
 - [x] add functionality to toggle transparency
 - [ ] rebuild theme picker from nvchad
     - [x] first step: create functionality to persistently change colorscheme
     - [ ] fix bug, where I can't change back from tokyonivght-day
 - [ ] Lua: understand formatting better and make it work more like in LazyVim
-- [!] see if I can improve the snippets a bit (too vague)
+- [ ] see if I can improve the snippets a bit (too vague)
