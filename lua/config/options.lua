@@ -51,3 +51,6 @@ vim.opt.splitbelow = true
 
 -- true colors
 vim.opt.termguicolors = true
+
+-- get nice stuff in markdown for obsidian plugin
+vim.opt.conceallevel = 1

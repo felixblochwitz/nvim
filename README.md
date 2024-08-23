@@ -31,3 +31,4 @@ Other stuff:
 - [ ] add functionality to toggle transparency
 - [x] Only use spaces for indents
 - [x] add some standard options for line numners and symbols, so the side bar doesn't twitch around
+- [x] Setup obsidian
