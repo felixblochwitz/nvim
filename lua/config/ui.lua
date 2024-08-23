@@ -2,3 +2,4 @@
 -- I want to start with making all plugins access their symbols from here
 --
 -- Here I surely can take some inspiration from the LazyVim config
+
