@@ -31,6 +31,6 @@ Other stuff:
 - [x] add functionality to toggle transparency
 - [ ] rebuild theme picker from nvchad
     - [x] first step: create functionality to persistently change colorscheme
-    - [ ] fix bug, where I can't change back from tokyonivght-day
+    - [ ] fix bug, where I can't change back from tokyonight-day
 - [ ] Lua: understand formatting better and make it work more like in LazyVim
 - [ ] see if I can improve the snippets a bit (too vague)
