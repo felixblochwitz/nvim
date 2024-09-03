@@ -1,4 +1,4 @@
-Active_scheme = "abscs"
+Active_scheme = "vscode"
 -- the lazy module import has to go first
 -- Otherwise some of my config might not work, because for some of the
 -- config, modules need to be loaded.
