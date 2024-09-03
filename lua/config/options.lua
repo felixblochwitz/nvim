@@ -54,3 +54,9 @@ vim.opt.termguicolors = true
 
 -- get nice stuff in markdown for obsidian plugin
 vim.opt.conceallevel = 1
+
+-- map scrolling to <c-j> and <c-k> to be able to scroll past end of file
+-- scroll down
+vim.keymap.set({"n"}, "<c-j>", "<c-e>")
+-- scroll up
+vim.keymap.set({"n"}, "<c-k>", "<c-y>")
