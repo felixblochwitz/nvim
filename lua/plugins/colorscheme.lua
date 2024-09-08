@@ -13,9 +13,6 @@ return {
 		name = "horion",
 	},
 	{
-		"Yazeed1s/oh-lucy.nvim",
-	},
-	{
 		"Abstract-IDE/Abstract-cs",
 	},
 	{
@@ -26,9 +23,6 @@ return {
 	},
 	{
 		"killitar/obscure.nvim",
-	},
-	{
-		"0xstepit/flow.nvim",
 	},
 	{
 		"NTBBloodbath/doom-one.nvim",
@@ -45,5 +39,8 @@ return {
 	},
 	{
 		"Mofiqul/vscode.nvim",
+	},
+	{
+		"nyoom-engineering/oxocarbon.nvim",
 	},
 }

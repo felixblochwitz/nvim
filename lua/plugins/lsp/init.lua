@@ -16,6 +16,34 @@ return {
 		end,
 	},
 
+	-- install mason lsp-config (for ensure installed)
+	{
+		"williamboman/mason-lspconfig.nvim",
+		opts = function()
+			require("mason-lspconfig").setup({
+				ensure_installed = {
+					"cssls",
+					"emmet_language_server",
+					"html",
+					"lua_ls",
+					"pyright",
+					"tsserver",
+				},
+			})
+		end,
+	},
+
+	-- install mason null-ls (for ensure installed)
+	{
+		"jay-babu/mason-null-ls.nvim",
+		opts = function()
+			require("mason-null-ls").setup({
+				automatic_installation = false,
+				ensure_installed = { "black", "djlint", "isort", "prettier", "stylua" },
+			})
+		end,
+	},
+
 	-- install nvim-lsp
 	-- link to all server configs: https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md
 	-- when I add a language server here, I also need to add it
@@ -29,7 +57,7 @@ return {
 			lspconfig.html.setup({})
 			lspconfig.lua_ls.setup({})
 			lspconfig.pyright.setup({})
-			lspconfig.tsserver.setup({})
+			lspconfig.ts_ls.setup({})
 		end,
 	},
 }
