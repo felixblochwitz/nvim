@@ -27,7 +27,7 @@ return {
 					"html",
 					"lua_ls",
 					"pyright",
-					"tsserver",
+					"ts_ls",
 				},
 			})
 		end,
