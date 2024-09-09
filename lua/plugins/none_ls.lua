@@ -15,6 +15,7 @@ return {
         }),
         null_ls.builtins.formatting.clang_format,
         -- can add more formatters by setting null_ls.builtins.formatting.<formatter>
+        null_ls.builtins.code_actions.gitsigns,
       },
     })
   end,
