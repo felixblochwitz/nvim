@@ -28,6 +28,7 @@ return {
 					"lua_ls",
 					"pyright",
 					"ts_ls",
+          "clangd",
 				},
 			})
 		end,
@@ -39,7 +40,7 @@ return {
 		opts = function()
 			require("mason-null-ls").setup({
 				automatic_installation = false,
-				ensure_installed = { "black", "djlint", "isort", "prettier", "stylua" },
+				ensure_installed = { "black", "djlint", "isort", "prettier", "stylua", "clang-format" },
 			})
 		end,
 	},
@@ -58,6 +59,7 @@ return {
 			lspconfig.lua_ls.setup({})
 			lspconfig.pyright.setup({})
 			lspconfig.ts_ls.setup({})
+      lspconfig.clangd.setup({})
 		end,
 	},
 }

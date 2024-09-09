@@ -13,6 +13,7 @@ return {
         null_ls.builtins.formatting.djlint.with({
           extra_args = { "--indent", "2" },
         }),
+        null_ls.builtins.formatting.clang_format,
         -- can add more formatters by setting null_ls.builtins.formatting.<formatter>
       },
     })
