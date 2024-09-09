@@ -57,7 +57,7 @@ vim.opt.conceallevel = 1
 
 -- map scrolling to <c-j> and <c-k> to be able to scroll past end of file
 -- scroll down
-vim.keymap.set({"n"}, "<c-u>", "<c-e>")
+vim.keymap.set({"n"}, "<c-n>", "<c-e>")
 -- scroll up
-vim.keymap.set({"n"}, "<c-i>", "<c-y>")
+vim.keymap.set({"n"}, "<c-m>", "<c-y>")
 -- changed it, because it was interfering with my tmux config
