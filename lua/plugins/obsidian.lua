@@ -154,6 +154,24 @@ return {
 			-- URL it will be ignored but you can customize this behavior here.
       -- TODO: rewrite the function to be OS agnostic
 			---@param url string
+      follow_url_func = function(url)
+        local os_name = vim.loop.os_uname().sysname
+
+        if os_name == "Darwin" then
+            -- macOS
+            vim.fn.jobstart({"open", url})
+        elseif os_name == "Linux" then
+            -- Linux
+            vim.fn.jobstart({"xdg-open", url})
+        elseif os_name == "Windows_NT" then
+            -- Windows
+            vim.fn.jobstart({"cmd.exe", "/c", "start", url})
+        else
+            -- Fallback or unsupported OS
+            print("Unsupported OS: " .. os_name)
+        end
+      end,
+      --[[
 			follow_url_func = function(url)
 				-- Open the URL in the default web browser.
 				-- vim.fn.jobstart({ "open", url }) -- Mac OS
@@ -161,7 +179,7 @@ return {
 				-- vim.cmd(':silent exec "!start ' .. url .. '"') -- Windows
 				-- vim.ui.open(url) -- need Neovim 0.10.0+
 			end,
-
+      ]]--
 			-- Optional, by default when you use `:ObsidianFollowLink` on a link to an image
 			-- file it will be ignored but you can customize this behavior here.
 			---@param img string
