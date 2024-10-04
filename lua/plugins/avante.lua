@@ -1,6 +1,6 @@
-  -- Configuration for yetone/avante.nvim plugin
-  -- To use avante I need token credits on either OpenAI or Anthropic.
-  -- From mzy tests so far it seems like 1 cent per request on Anthropic
+-- Configuration for yetone/avante.nvim plugin
+-- To use avante I need token credits on either OpenAI or Anthropic.
+-- From mzy tests so far it seems like 1 cent per request on Anthropic
 return {
   "yetone/avante.nvim",
   event = "VeryLazy",
@@ -18,7 +18,7 @@ return {
     "MunifTanjim/nui.nvim",
     --- The below dependencies are optional,
     "nvim-tree/nvim-web-devicons", -- or echasnovski/mini.icons
-    "zbirenbaum/copilot.lua", -- for providers='copilot'
+    --"zbirenbaum/copilot.lua", -- for providers='copilot'
     {
       -- support for image pasting
       "HakonHarnes/img-clip.nvim",
@@ -38,11 +38,11 @@ return {
     },
     {
       -- Make sure to set this up properly if you have lazy=true
-      'MeanderingProgrammer/render-markdown.nvim',
+      "MeanderingProgrammer/render-markdown.nvim",
       opts = {
-        file_types = { "markdown", "Avante" },
+        file_types = {"Avante" },
       },
-      ft = { "markdown", "Avante" },
+      ft = {"Avante" },
     },
   },
 }
