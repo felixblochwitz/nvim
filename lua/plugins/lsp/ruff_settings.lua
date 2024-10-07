@@ -19,8 +19,6 @@ return {
         "INT",
         -- pylint
         "PL",
-        -- flake8-pytest-style
-        "PT",
         -- misc lints
         "PIE",
         -- flake8-pyi
@@ -58,6 +56,9 @@ return {
       },
       ignore = {
         --## Intentionally disabled
+        -- flake8-pytest-style
+        -- ignore, because so far I'm usually not using pytest
+        "PT",
         -- module level import not at top of file
         "E402",
         -- do not assign a lambda expression, use a def

@@ -10,6 +10,13 @@ local function toggle_trans()
     "NvimTreeNormalNC",
     "EndOfBuffer",
     "NvimTreeEndOfBuffer",
+    -- testing new additional groups below
+    "LineNr",
+    "CursorLineNr",
+    "FoldColumn",
+    "GitSignsAdd",
+    "GitSignsChange",
+    "GitSignsDelete",
   }
 
   local normal_bg = vim.api.nvim_get_hl(0, { name = "Normal" }).bg
