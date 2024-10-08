@@ -1,14 +1,14 @@
 local function switch_scheme(theme)
   local scheme_name = theme.args
   vim.cmd("colorscheme " .. scheme_name)
-  local file = os.getenv("XDG_CONFIG_HOME") .. "/nvim/lua/config/colorscheme"
+  local file = os.getenv("XDG_CONFIG_HOME") .. "/nvim/lua/config/colorscheme.txt"
   local w = io.open(file, "w")
   w:write(scheme_name .. "\n")
   w.close()
 end
 
 local function set_active_scheme()
-  local file = os.getenv("XDG_CONFIG_HOME") .. "/nvim/lua/config/colorscheme"
+  local file = os.getenv("XDG_CONFIG_HOME") .. "/nvim/lua/config/colorscheme.txt"
   local r = io.open(file, "r")
   local active_scheme = r:read()
   vim.cmd("colorscheme " .. active_scheme)
