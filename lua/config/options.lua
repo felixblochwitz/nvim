@@ -11,7 +11,7 @@ vim.opt.expandtab = true
 
 -- TODO: figure out where to best put these
 vim.keymap.set({ "n", "v" }, "gd", vim.lsp.buf.definition)
-vim.keymap.set({ "n", "v" }, "gr", vim.lsp.buf.references)
+vim.keymap.set({ "n", "v" }, "gr", "<cmd> Telescope lsp_references<cr>")
 vim.keymap.set({ "n", "v" }, "gI", vim.lsp.buf.implementation)
 vim.keymap.set({ "n", "v" }, "gY", vim.lsp.buf.type_definition)
 vim.keymap.set({ "n", "v" }, "gD", vim.lsp.buf.declaration)
