@@ -52,6 +52,10 @@ vim.api.nvim_create_user_command("Cs", switch_scheme, {
       "tokyonight-day",
       "NeoSolarized",
       "vscode",
+      "catppuccin-latte",
+      "catppuccin-frappe",
+      "catppuccin-macchiato",
+      "catppuccin-mocha",
     }
     return suggestions
   end,
